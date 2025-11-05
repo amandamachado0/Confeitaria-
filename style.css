@@ -2,26 +2,41 @@
 
 
 header {
- background-color: #880181;
- color: white;
- heigth: 200px;
-}
- header h1 {
-    text-align: center;
-    font-size: 50px;
- }
- h1 {
-    margin-top:10px;
-    margin-bottom:20px;
-
- }
-
-nav ul{ 
-    list-style: none;
-    text-align: center;
+  background-color: #880181;
+  color: white;
+  height: 200px; /* Corrigido "heigth" para "height" */
 }
 
-nav ul li { 
+header h1 {
+  text-align: center;
+  font-size: 50px;
+  margin: 0; 
 
+h1 {
+  margin-top: 10px; 
+  margin-bottom: 20px; 
 
+nav ul {
+  list-style: none;
+  text-align: center;
+  margin: 0; 
+  padding: 0; 
+
+nav ul li {
+  display: inline-block; 
+  margin: 0 15px; 
 }
+
+nav ul li a {
+  color: white; /* Cor do texto */
+  text-decoration: none; /* Remove sublinhado */
+  font-size: 18px; /* Ajusta o tamanho da fonte */
+  padding: 5px 10px; /* Espaço interno nos links */
+  transition: background-color 0.3s ease; /* Efeito de transição no hover */
+}
+
+nav ul li a:hover {
+  background-color: #a7009d; /* Cor de fundo no hover */
+  border-radius: 5px; /* Borda arredondada no hover */
+}
+
