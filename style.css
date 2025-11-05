@@ -28,15 +28,13 @@ nav ul li {
 }
 
 nav ul li a {
-  color: white; /* Cor do texto */
-  text-decoration: none; /* Remove sublinhado */
-  font-size: 18px; /* Ajusta o tamanho da fonte */
-  padding: 5px 10px; /* Espaço interno nos links */
-  transition: background-color 0.3s ease; /* Efeito de transição no hover */
-}
-
+  color: white; 
+  text-decoration: none; 
+  font-size: 18px; 
+  padding: 5px 10px; 
+  transition: background-color 0.3s;
 nav ul li a:hover {
-  background-color: #a7009d; /* Cor de fundo no hover */
-  border-radius: 5px; /* Borda arredondada no hover */
+  background-color: #a7009d; 
+  border-radius: 5px; 
 }
 
